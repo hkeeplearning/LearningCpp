@@ -14,4 +14,47 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConcreteComponent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IDecorator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConcreteComponent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoratorA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoratorB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoratorC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IComponent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IDecorator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

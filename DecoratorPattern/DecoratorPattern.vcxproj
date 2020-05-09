@@ -138,6 +138,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ConcreteComponent.h" />
+    <ClInclude Include="DecoratorA.h" />
+    <ClInclude Include="DecoratorB.h" />
+    <ClInclude Include="DecoratorC.h" />
+    <ClInclude Include="IComponent.h" />
+    <ClInclude Include="IDecorator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConcreteComponent.cpp" />
+    <ClCompile Include="DecoratorA.cpp" />
+    <ClCompile Include="DecoratorB.cpp" />
+    <ClCompile Include="DecoratorC.cpp" />
+    <ClCompile Include="IComponent.cpp" />
+    <ClCompile Include="IDecorator.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -138,6 +138,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="IObserver.h" />
+    <ClInclude Include="ISubject.h" />
+    <ClInclude Include="MyObserver.h" />
+    <ClInclude Include="MySubject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IObserver.cpp" />
+    <ClCompile Include="ISubject.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MyObserver.cpp" />
+    <ClCompile Include="MySubject.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
