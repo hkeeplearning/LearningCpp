@@ -223,4 +223,4 @@ DWORD WINAPI ConsumerThread(LPVOID p)
 - 生产者进程，读取本地数据，写入共享缓冲区
 - 消费者进程，读取共享缓冲区数据，写到本地
 
-[实现](https://github.com/hkeeplearning/LearningCpp/tree/master/LongRunProcess)
+[实现](https://github.com/hkeeplearning/LearningCpp/tree/master/ProducerConsumer)
