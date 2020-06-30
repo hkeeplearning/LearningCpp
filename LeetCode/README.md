@@ -1,4 +1,13 @@
-## [Remove Duplicates from Sorted Arra](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+<a name="index">**Index**</a>
+&emsp;<a href="#0">Remove Duplicates from Sorted Arra</a>  
+&emsp;<a href="#1">Remove Duplicates from Sorted Array II</a>  
+&emsp;<a href="#2">Longest Consecutive Sequence</a>  
+&emsp;<a href="#3">Two Sum</a>  
+&emsp;<a href="#4">Appendix</a>  
+&emsp;&emsp;<a href="#5">HashTable</a>  
+## <a name="0">Remove Duplicates from Sorted Arra</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+
+[原题目](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
 Given a sorted array *nums*, remove the duplicates [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) such that each element appear only *once* and return the new length.
 
@@ -72,7 +81,9 @@ public:
 };
 ```
 
-## [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+## <a name="1">Remove Duplicates from Sorted Array II</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+
+[原题目](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 
 Given a sorted array *nums*, remove the duplicates [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) such that duplicates appeared at most *twice* and return the new length.
 
@@ -129,7 +140,9 @@ public:
 };
 ```
 
-## [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+## <a name="2">Longest Consecutive Sequence</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+
+[原题目](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
 
@@ -173,7 +186,9 @@ public:
 };
 ```
 
-## [Two Sum](https://leetcode.com/problems/two-sum/)
+## <a name="3">Two Sum</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
+
+[原题目](https://leetcode.com/problems/two-sum/)
 
 Given an array of integers, return **indices** of the two numbers such that they add up to a specific target.
 
@@ -230,9 +245,9 @@ public:
 
 
 
-## Appendix
+## <a name="4">Appendix</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
-### HashTable
+### <a name="5">HashTable</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 通过链地址法解决hash冲突的问题
 
